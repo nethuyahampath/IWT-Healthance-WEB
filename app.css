@@ -1,0 +1,97 @@
+.bg{
+    background-image: url("images/download.jpg");
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+
+}
+
+
+.app{
+    font-size: 70px;
+    font-family: Algerian;
+    color: darkblue;
+
+}
+
+.book{
+    line-height: 200px;
+    font-size: 40px;
+    font-family: Century;
+    color: darkred;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+
+.fromFont{
+    font-family: Ebrima;
+    color: darkblue;
+    font-weight: bold;
+
+}
+
+input[type=text] {
+    border: 0.9px solid black;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.4s;
+
+
+}
+
+input[type=email] {
+    border: 0.9px solid black;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.4s;
+}
+
+input[type=email]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 8px 6px -6px dodgerblue;
+}
+
+input[type=text]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 8px 6px -6px dodgerblue;
+}
+input[type=date] {
+    border: 0.9px solid black;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.4s;
+}
+
+textarea:focus{
+    border: 1px solid black;
+    box-shadow: 0 8px 6px -6px dodgerblue;
+}
+
+input[type=date]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 8px 6px -6px dodgerblue;
+}
+
+.con{
+
+    background-color: darkslategrey;
+    font-size: 24px;
+    color: white;
+    border-radius: 8px;
+    border-color: darkgrey;
+}
+
+

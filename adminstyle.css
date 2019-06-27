@@ -1,0 +1,55 @@
+body{
+    font-size: 20px;
+}
+table{
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+tr{
+    border-bottom: 1px solid red;
+}
+th,td{
+    border: none;
+    height: 30px;
+    padding: 2px;
+    width: auto;
+    padding:20px;
+}
+tr:hover{
+    background: blanchedalmond;
+}
+
+form{
+    width: auto;
+    margin: 50px auto;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+
+
+.btn{
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: blue;
+    border: none;
+    border-radius: 5px;
+}
+
+.loginbut{
+    width: 385px;
+    height: 40px;
+    background-color: blue;
+    border-radius:3px;
+    text-decoration: solid;padding: 8px 16px;color: white;
+    font-weight: bold;
+}
+
+.form-control{
+    width: 400px;
+}

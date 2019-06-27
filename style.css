@@ -1,0 +1,293 @@
+.logo{
+    width:200px;
+    height: auto;
+}
+
+.header{
+    width: 100%;
+    height: 10px;
+}
+.nav{
+    height: auto;
+    width:auto;
+    float:left;
+
+}
+
+.nav ul{
+    display-inline:block;
+    margin:0px;
+    padding:20px 20px;
+
+}
+.nav ul li{
+    display:inline;
+}
+.nav ul  a{
+    color:black;
+    text-decoration:none;
+
+
+}
+
+.header tr td nav:hover{
+    background: red;
+}
+
+.loginbut{
+    width: 385px;height: 40px;background-color: blue;
+    border-radius:3px;text-decoration: solid;padding: 8px 16px;color: white;font-weight: bold;
+}
+
+.loginbut:hover{
+    background-color: #4d8de3;
+}
+
+.fromFont{
+    font-family: Ebrima;
+    color: darkblue;
+}
+
+input[type=text]{
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+textarea{
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+input[type=password]{
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+input[type=text]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+input[type=date]{
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+input[type=date]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+input[type=email]{
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+input[type=email]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+
+textarea:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+input[type=password]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.headfont {
+    font-family: Ebrima;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.fontnav{
+    font-family: Baskerville Old Face;
+    font-size: 20px;
+}
+
+
+@keyframes slider {
+
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
+.slider{
+    overflow: hidden;
+}
+.slider figure img{
+    width: 20%;
+    height: 5%;
+    float: left;
+}
+.slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 20s slider infinite;
+
+}
+
+.hometd{
+    width: 270px;
+    background-color: lightgoldenrodyellow;
+    padding: 40px;
+}
+.hometdspace{
+    width: 160px;
+}
+
+.home6head{
+    font-family: "Arial Black";
+    font-weight: bold;
+    font-size: 20px;
+}
+.home6para{
+    font-family: Calibri;
+    color: #bb1300;
+    font-size: 18px;
+    font-weight: bold;
+}
+.intermainfont{
+    font-family:Tahoma ;
+    font-weight: bold;
+    color:white;
+    font-size: 20px;
+}
+
+.intermaintd{
+    background-color: #0500a6;
+    width: 400px;
+    height: 10px;
+    border-radius: 8px;
+
+}
+
+.intermaintd:hover{
+    background-color: #5d66ea;
+}
+
+.hometd:hover{
+    background-color: lightblue;
+    color: white;
+}
+.home6para:hover{
+    color: black;
+}
+
+/*contactus*/
+.slider1{
+    overflow: hidden;
+}
+.slider1 figure img{
+    width: 20%;
+    height: 7%;
+    float: left;
+}
+
+.slider1 figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 20s slider infinite;}
+
+/*find us*/
+#googleMap{
+    position: relative;
+
+
+}
+.table{
+    background-image: url("images/bg.jpg");
+}
+/*about us */
+.paragraph {
+    width: 570px;
+    background-color: transparent;
+    padding: 40px;
+    align-content: center;
+}
+.slider2{
+    overflow: hidden;
+}
+.slider2 figure img{
+    width: 20%;
+    height: 5%;
+    float: left;
+}
+
+.slider2 figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 20s slider infinite;}
+
+
+
+/*find us*/
+.map{
+    width: 20%;
+    height: 5%;
+}
